@@ -1,1 +1,2 @@
-"# board_constraints" 
+# Board constraint files for various FPGA boards
+
