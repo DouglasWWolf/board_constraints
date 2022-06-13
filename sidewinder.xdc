@@ -23,10 +23,10 @@
 #######################################
 #  Clocks & system signals
 #######################################
-#set_property  -dict {PACKAGE_PIN C4  IOSTANDARD LVDS_25} [get_ports sysclk100_p]
-#set_property  -dict {PACKAGE_PIN C3  IOSTANDARD LVDS_25} [get_ports sysclk100_n]
-#set_property  -dict {PACKAGE_PIN N13 IOSTANDARD LVDS_25} [get_ports sysclk200_p]
-#set_property  -dict {PACKAGE_PIN M13 IOSTANDARD LVDS_25} [get_ports sysclk200_n]
+set_property -dict {PACKAGE_PIN C4  IOSTANDARD LVDS_25} [get_ports sysclk100_p]
+set_property -dict {PACKAGE_PIN C3  IOSTANDARD LVDS_25} [get_ports sysclk100_n]
+#set_property -dict {PACKAGE_PIN N13 IOSTANDARD LVDS_25} [get_ports sysclk200_p]
+#set_property -dict {PACKAGE_PIN M13 IOSTANDARD LVDS_25} [get_ports sysclk200_n]
 
 #######################################
 #  Miscellaneous
